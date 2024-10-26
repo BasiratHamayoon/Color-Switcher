@@ -33,3 +33,44 @@ body{
     padding: 10px;
     color: rgb(255, 118, 7);
 }
+.colors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    text-align: center;
+    grid-gap: 20px;
+}
+.colors span{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: black;
+    margin: auto;
+}
+.colors :nth-child(1){
+    background-color: purple;
+}
+.colors :nth-child(2){
+    background-color: blue;
+}
+.colors :nth-child(3){
+    background-color: green;
+}
+.colors :nth-child(4){
+    background-color:red;
+}
+.colors :nth-child(5){
+    background-color: yellow;
+}
+.colors :nth-child(6){
+    background-color: orange;
+}
+.colors :nth-child(7){
+    background-color: pink;
+}
+.colors :nth-child(8){
+    background-color: black;
+}
+.colors :nth-child(9){
+    background-color: brown;
+}
