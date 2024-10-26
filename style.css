@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff;
+    transition: background 0.5s ease-in-out;
+}
+#mainHeading{
+    background-color: #fff;
+    color: rgb(255, 118, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    transition: color 0.5s ease-in-out;
+}
+.container{
+    background-color: #ffffff;
+    width: 250px;
+    height: 330px;
+    margin-top: 120px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(181, 174, 174);  
+}
+.container h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    color: rgb(255, 118, 7);
+}
