@@ -45,3 +45,7 @@ blueColor.addEventListener('click', function(){
     document.body.style.background = "brown";
     mainHeading.style.color = "brown"; 
  });
+ defaultColor.addEventListener('click', function(){
+   document.body.style.background = '#fff';
+   mainHeading.style.color = "rgb(255, 118, 7)";
+});
