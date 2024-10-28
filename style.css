@@ -7,7 +7,7 @@ body{
     transition: background 0.5s ease-in-out;
 }
 #mainHeading{
-    background-color: #fff;
+    background-color: #e9e4e4;
     color: rgb(255, 118, 7);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: auto;
@@ -16,16 +16,17 @@ body{
     padding: 10px;
     margin-top: 20px;
     transition: color 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(43, 42, 42);
 }
 .container{
-    background-color: #ffffff;
+    background-color: #e9e4e4;
     width: 250px;
     height: 330px;
-    margin-top: 120px;
+    margin-top: 40px;
     margin-left: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 0px 10px rgb(181, 174, 174);  
+    box-shadow: 0px 0px 10px rgb(51, 51, 51); 
 }
 .container h1{
     font-size: 20px;
@@ -46,6 +47,7 @@ body{
     border-radius: 50%;
     background-color: black;
     margin: auto;
+    cursor: pointer;
 }
 .colors :nth-child(1){
     background-color: purple;
